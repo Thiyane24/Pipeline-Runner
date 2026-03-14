@@ -5,6 +5,7 @@ from pipeline.logger import Logger
 from pipeline.pipeline import Pipeline
 
 def remove_empty_rows(data):
+    '''Removes rows from the data that contain any empty values. It takes a list of dictionaries as input and returns a new list of dictionaries that only includes rows where all values are non-empty.'''
     return [row for row in data if all(row.values())]
 
 extract_step1 = ExtractStep("extract", source = "data/Messy_Employee_dataset.csv")
