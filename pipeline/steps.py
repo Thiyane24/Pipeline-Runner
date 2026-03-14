@@ -11,7 +11,7 @@ class ExtractStep(PipelineStep):
         if isinstance(self.source, list):
             return self.source
         else:
-            with open(self.source, 'r') as f :
+            with open(self.source, 'r', encoding='utf-8') as f :
                 reader = csv.DictReader(f)
                 return list(reader)
             

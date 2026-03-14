@@ -1,0 +1,32 @@
+id_empleado,nombre,apellido,email,telefono,departamento,cargo,salario,fecha_ingreso,fecha_nacimiento,ciudad,pais,activo,evaluacion_desempeño,horas_extra
+E001,Carlos,Ramirez,carlos.ramirez@empresa.com,+52-55-1234-5678,Ventas,Ejecutivo de Ventas,45000,2019-03-12,1988-07-21,Ciudad de México,México,1,4.5,12
+E002,maria,lopez,MARIA.LOPEZ@EMPRESA.COM,5512345678,ventas,ejecutivo de ventas,45000,12/03/2019,21-07-1990,ciudad de mexico,mexico,1,4.2,8
+E003,JUAN,HERNANDEZ,juan.hernandez@empresa,55-9876-5432,Recursos Humanos,Analista HR,38000,2020-06-01,1992-11-05,Guadalajara,México,SI,3.8,0
+E004,Ana,Torres,,+52 55 2233 4455,Tecnología,Desarrolladora Senior,72000,2018-01-15,1985-03-30,Monterrey,Mexico,1,,20
+E005,Pedro,Gonzalez,pedro.gonzalez@empresa.com,N/A,Marketing,Director de Marketing,95000,15/01/2021,30-09-1980,CDMX,MX,TRUE,4.9,5
+E006,,Morales,sofia.morales@empresa.com,(55) 6677-8899,Finanzas,Contador,42000,2021-09-22,1995-04-12,Ciudad de México,México,1,3.5,3
+E007,Roberto,,roberto@empresa.com,55-0011-2233,Tecnología,DevOps Engineer,80000,2017-07-30,,Querétaro,México,0,4.1,15
+E008,Claudia,Reyes,claudia.reyes@empresa.com,+52-55-3344-5566,Ventas,Ejecutivo de Ventas,-5000,2022-02-14,1998-08-19,Ciudad de México,México,1,5.5,2
+E009,Miguel,Castro,miguel@@empresa.com,5544556677,Operaciones,Supervisor,51000,2016-11-03,1983-12-01,Puebla,México,SI,4.0,10
+E010,Laura,Jimenez,laura.jimenez@empresa.com,+52-55-7788-9900,Marketing,Diseñadora Gráfica,40000,03-11-2016,01-12-1991,guadalajara,MÉXICO,1,3.9,
+E011,Fernando,Vargas,fernando.vargas@empresa.com,55-2211-3344,Finanzas,Analista Financiero,55000,2023-05-10,1990-06-15,Monterrey,México,1,4.3,7
+E012,Isabel,Mendoza,,,(sin departamento),Practicante,8000,2023-08-01,2001-01-20,Ciudad de México,México,1,N/A,0
+E013,Andrés,Flores,andres.flores@empresa.com,+52 55 9900 1122,Tecnología,Arquitecto de Software,110000,2015-04-18,1979-09-08,Remote,México,TRUE,4.7,25
+E014,Valeria,Cruz,valeria.cruz@empresa.com,55-4433-2211,Recursos Humanos,Gerente de RH,78000,2020/03/25,1987-02-27,Ciudad de México,México,NO,4.4,5
+E015,Diego,Ruiz,diego.ruiz@empresa.com,5566778899,Ventas,Ejecutivo de Ventas,45000,2022-10-10,1996-05-14,Tijuana,México,1,3.7,9
+E016,Paola,Aguilar,paola.aguilar@empresa.com,+52-664-123-4567,Operaciones,Coordinadora,47000,2021-07-19,,Ciudad de México,MX,1,4.1,4
+E017,null,Medina,hector.medina@empresa.com,55-8899-0011,Tecnología,QA Engineer,60000,2019-12-02,1993-07-29,Guadalajara,México,1,,11
+E018,Carmen,Ortiz,carmen.ortiz@empresa.com,(55) 0022-1133,Marketing,Community Manager,35000,2023-01-30,1999-10-10,Ciudad de México,México,1,4.6,6
+E019,Luis,Sánchez,luis.sanchez@empresa.com,55-7766-5544,Finanzas,CFO,150000,2013-09-09,1975-03-22,Ciudad de México,México,ACTIVO,5.0,0
+E020,  ,  ,,,Desconocido,,,,,,,,,
+E021,Karla,Romero,karla.romero@empresa.com,+52-55-4455-6677,Ventas,Ejecutivo de Ventas,45000,2024-01-08,1997-11-30,Mérida,México,1,3.6,8
+E022,Jorge,Navarro,jorge.navarro@empresa.com,5533221100,Tecnología,Data Scientist,88000,2020-08-14,1991-04-17,Ciudad de México,México,1,999,18
+E023,Sofía,Perez,sofia.perez@empresa.com,55-1122-3344,Recursos Humanos,Analista HR,38000,2022-05-05,1994-09-25,Puebla,México,1,4.2,2
+E024,Marco,Diaz,marco.diaz@empresa.com,N/A,Marketing,Ejecutivo de Cuentas,50000,05-05-2022,25-09-1988,Ciudad de México,México,0,,14
+E025,Elena,Guerrero,elena.guerrero@empresa.com,+52-55-6655-4433,Finanzas,Analista Financiero,55000,2021-11-22,1992-01-13,Monterrey,México,1,4.0,3
+E001,Carlos,Ramirez,carlos.ramirez@empresa.com,+52-55-1234-5678,Ventas,Ejecutivo de Ventas,45000,2019-03-12,1988-07-21,Ciudad de México,México,1,4.5,12
+E026,Tomás,Vega,tomas.vega@empresa.com,55-9988-7766,Operaciones,Logística,43000,2018-06-30,1986-08-04,Ciudad de México,México,SI,3.3,20
+E027,Natalia,Rojas,,+52-33-2211-4455,Tecnología,Frontend Developer,70000,30/06/2018,04-08-2000,Guadalajara,México,1,4.8,
+E028,Héctor,Lima,hector.lima@empresa.com,33-5544-6677,Ventas,Gerente de Ventas,92000,2014-02-17,1981-12-19,Ciudad de México,México,TRUE,4.6,5
+E029,Adriana,Mora,adriana.mora@empresa,55-3322-1100,Marketing,Analista de Marketing,41000,2023-03-03,1996-07-07,MONTERREY,MEXICO,1,3.8,7
+E030,Ricardo,Serrano,ricardo.serrano@empresa.com,(55) 4411-2233,Tecnología,Backend Developer,75000,2017/11/28,1989-02-14,Ciudad de México,México,1,4.3,16
