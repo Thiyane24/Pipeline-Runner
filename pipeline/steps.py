@@ -35,3 +35,6 @@ class LoadStep(PipelineStep):
             with open(self.destination, 'w') as j:
                 json.dump(data, j, indent = 2)
         
+        
+        
+        
