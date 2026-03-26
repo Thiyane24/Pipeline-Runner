@@ -1,10 +1,10 @@
-# 🚀 Pipeline Runner
+#  Pipeline Runner
 
 > A lightweight, composable ETL pipeline framework built in pure Python, modelling the same architecture used by Apache Airflow, Prefect, and Luigi.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **Pipeline Runner** is the second project in my OOP Python Data Engineering series. It implements a modular ETL (Extract, Transform, Load) pipeline system using abstract base classes, composition, and the Strategy design pattern.
 
@@ -12,7 +12,7 @@ The goal was to build a system where individual pipeline steps are independent, 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 pipeline/
@@ -25,7 +25,7 @@ pipeline/
 
 ---
 
-## ⚙️ Classes
+##  Classes
 
 ### `PipelineStep` (Abstract Base Class)
 The abstract parent for all pipeline steps. Enforces that every step implements `execute()`.
@@ -96,7 +96,7 @@ Wraps step execution with timing and status logging.
 
 ---
 
-## 🧠 OOP Concepts Practised
+## OOP Concepts Practised
 
 | Concept | Where Used |
 |---|---|
@@ -109,7 +109,7 @@ Wraps step execution with timing and status logging.
 
 ---
 
-## 🔗 DE Context
+##  DE Context
 
 This project mirrors the core architecture of **Apache Airflow**:
 
@@ -126,7 +126,7 @@ Understanding how to model a pipeline as a sequence of composable steps is one o
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # Clone the repository
@@ -137,34 +137,43 @@ cd pipeline-runner
 python test_pipeline.py
 ```
 
+```bash
+# Docker run
+docker build -t pipeline-runner .
+
+docker run pipeline-runner
+
+
+```
+
 No external dependencies standard library only.
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - No third-party libraries required
 
 ---
 
-## 📁 Part of
+##  Part of
 
 This project is part of my **OOP Python Data Engineering Series** — 7 projects building from beginner to intermediate DE skills.
 
 | # | Project | Status |
 |---|---|---|
-| 01 | CSV Data Parser & Cleaner | ✅ Complete |
-| 02 | Pipeline Runner | 🔄 In Progress |
-| 03 | Database Connection Pool | ⏳ Upcoming |
-| 04 | Schema Registry | ⏳ Upcoming |
-| 05 | Data Quality Framework | ⏳ Upcoming |
-| 06 | Mini Message Queue | ⏳ Upcoming |
-| 07 | Batch Job Scheduler | ⏳ Upcoming |
+| 01 | CSV Data Parser & Cleaner |  Complete |
+| 02 | Pipeline Runner | In Progress |
+| 03 | Database Connection Pool |  Upcoming |
+| 04 | Schema Registry |  Upcoming |
+| 05 | Data Quality Framework |  Upcoming |
+| 06 | Mini Message Queue |  Upcoming |
+| 07 | Batch Job Scheduler |  Upcoming |
 
 ---
 
-## 👤 Author
+## Author
 
 **Thiyane Xavier**
 IT Diploma Student @ MAHSA University, Malaysia
