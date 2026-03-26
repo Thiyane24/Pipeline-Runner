@@ -8,4 +8,4 @@ COPY test_pipeline.py .
 
 RUN mkdir -p output
 
-CMD ["python", "test_pipeline.py"]
+CMD ["python", "test_pipeline.py"] 
